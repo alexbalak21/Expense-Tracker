@@ -1,0 +1,29 @@
+.form-control:focus,
+.form-select:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.table th.description-column {
+  width: 40% !important;
+}
+.table th.amount-column {
+  width: 25% !important;
+}
+.table th.category-column {
+  width: 25% !important;
+}
+
+.table th.category-action,
+.table td.category-action {
+  width: 1%; /* force shrink */
+  white-space: nowrap; /* prevent wrapping */
+}
+
+.total-label {
+  width: 40%;
+}
+
+.total-amount {
+  width: 25%;
+}
