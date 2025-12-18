@@ -1,4 +1,4 @@
-package app.dto;
+package app.model;
 
 public class DemoModel {
     public final String text;
